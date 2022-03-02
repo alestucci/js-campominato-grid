@@ -26,6 +26,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: scroll;
 }
 
 .field {
@@ -61,6 +62,26 @@ main {
     align-items: center;
 }
 
+.between {
+    justify-content: space-between;
+}
+
+.choice > * {
+    margin: 0 .2em;
+    height: 100%;
+}
+
+#difficulty {
+    text-align: center;
+    padding: .4em;
+    width: 10em;
+
+}
+
+#play {
+    padding: .4em 1em;
+}
+
 .square {
     width: 3em;
     height: 3em;
@@ -68,4 +89,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #6495ed;
+    color: white;
 }
