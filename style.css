@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 6em;
+    background-color: white;
+}
+
+footer {
+    height: 3em;
+    background-color: white;
+}
+
+main {
+    height: calc(100vh - 9em);
+    background-color: aquamarine;
+}
+
+.container {
+    width: min(960px, 80%);
+    margin: 0 auto;
+}
