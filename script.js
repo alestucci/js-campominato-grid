@@ -1,6 +1,8 @@
 let playBtn = document.getElementById("play");
 //console.log(playBtn);
-playBtn.addEventListener("click", function () {
+playBtn.addEventListener("click", playGame);
+
+function playGame() {
 	const difficulty = document.getElementById("difficulty").value;
 	//console.log(difficulty);
 	const field = document.querySelector(".field");
@@ -34,7 +36,7 @@ playBtn.addEventListener("click", function () {
 		});
 		field.append(box);
 	}
-});
+}
 
 function squareSelection(target) {
 	target.classList.toggle("selected");
